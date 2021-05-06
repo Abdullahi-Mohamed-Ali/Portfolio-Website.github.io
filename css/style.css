@@ -1,0 +1,194 @@
+/* body */
+body{
+    font-family: 'Frijole', cursive;
+
+}
+/* navbar */
+.nav-link {
+    color: #faa916;
+    font-size: 2em;
+    font-style: italic;
+    margin-right: 1em;
+}
+.navbar a:hover {
+    color: #fbfffe;
+}
+/* end navbar */
+
+/* titel */
+.title-underline {
+    width: 10em;
+    border: 0.25em solid #faa916;
+    margin: 0 auto 4em auto;
+}
+
+/* header */
+header {
+    height: 100vh;
+    background: url(../img/7.jpg); fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.box {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.box .card {
+    float: left; 
+}
+header .card {
+    border-radius: 0;
+    border: 0.2em solid #6D676E;
+    background-color: #fbfffe;
+    /* opacity: 0.7; */
+}
+header .card-title {
+    color: #96031a;
+}
+header .card a {
+    background-color: #faa916;
+    color: #1a1;
+    width: 6em;
+    margin: 0 auto;
+    border-radius: 0;
+    font-size: 1.5em;
+}
+header .card a:hover {
+    color: #faa916;
+    background-color: #1a1a;
+}
+header .col-md-6 {
+    padding: 2em;
+}
+
+/* end header */
+
+/* passion section */
+#passion {
+    padding: 3em 2em;
+}
+#passion .card {
+    position: relative;
+    border-radius: 0;
+    border: none;
+    margin-bottom: 2em;
+}
+#passion .card-text {
+    margin: 2em 0;
+}
+#passion .small-text-underline {
+    width: 4em;
+    border: 0.22em solid #faa916;
+    margin: ;
+}
+
+/* #passion .corner-text {
+    position: absolute;
+    padding: 0.5em;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #faa916;
+} */
+#passion .corner-text p {
+    margin-bottom: 0;
+}
+#passion a {
+    background-color: #faa916;
+    color: #1a1;
+    width: 6em;
+    margin: 0 auto;
+    border-radius: 3em;
+    font-size: 1.5em;
+
+}
+#passion img {
+    transition: transform 4s ease-in-out;
+}
+.holder {
+    overflow: hidden;
+}
+#passion img:hover {
+    transform: scale(1.3);
+}
+
+/* end passion section */
+
+/* skills section */
+#skills {
+    background-color: #1b1b1b;
+    color: #fbfffe;
+    padding: 2em;
+}
+#skills .col-md-4 {
+    margin-bottom: 2em;
+}
+#skills .fa {
+    font-size: 4em;
+    margin-bottom: 0.25em;
+    color: #96031a;
+}
+skills .fa:hover {
+    color: #faa916;
+}
+
+/* end skills section */
+
+/* Work */
+#work {
+    background-color: #6D676E;
+    padding: 2em 0 0 0;
+}
+#work .col-sm-6 {
+    padding-left: 0! important;
+    padding-right: 0! important;
+}
+#work .col-sm-6:hover {
+    opacity: 0.6;
+}
+#work img {
+    transition: transform 4s ease-in-out;
+}
+#work img:hover {
+    transform: scale(1.2);
+}
+/* end of Work */
+
+/* footer */
+#footer {
+    padding: 2em;
+    background: #faa916;
+}
+#footer .title-underline {
+    background: #96031a;
+}
+#footer a {
+    color: #1b1b1b;
+    font-size: 3em;
+    margin: 0.25em;
+}
+#footer a:hover {
+    color: #fbfffe;
+}
+#footer h3 {
+    margin-top: 2em;
+}
+/* end footer */
+
+/* media */
+@media screen and (max-width:768px) {
+    header .col-md-6 {
+        padding: 4em;
+    }
+}
+@media screen and (max-width:768px) and 
+(main-width:576px) {
+   .last p {
+        padding: 0 10em;
+    }
+}
+
+
